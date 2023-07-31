@@ -616,16 +616,29 @@
               </label>
             </div>
 
-            <label class="form-modal terms-and-conditions-checkbox">
-              <svg class="checkbox">
-                <use href="./images/icons.svg#icon-Vector"></use>
+            <label class="agree-check">
+              <input
+                type="checkbox"
+                class="checkmark"
+                name="agreement"
+                value="agree"
+              />
+              <svg class="icon-svg-modal" width="16" height="16">
+                <use href="./icons.svg#icon-icon-check"></use>
               </svg>
-              <input type="checkbox" class="checkmark" />
-              <span
+              <span class="normal-text"
                 >I agree with the letter and accept the
-                <span>Terms and Conditions</span></span
+                <a href=""
+                  ><span class="blue-text">Terms and Conditions</span></a
+                ></span
               >
             </label>
+
+            <div class="send">
+              <button type="submit" class="send-btn">
+                <span class="text-btn">Send</span>
+              </button>
+            </div>
           </form>
         </div>
       </div>
