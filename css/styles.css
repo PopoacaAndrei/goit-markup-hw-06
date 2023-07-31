@@ -998,3 +998,25 @@ a {
   padding-top: 12px;
   padding-left: 16px;
 }
+
+.form-modal {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.form-modal .checkbox {
+  width: 16px;
+  height: 15px;
+  flex-shrink: 0;
+}
+
+.form-modal .terms-and-conditions-checkbox {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-modal .checkmark {
+  display: none;
+}
