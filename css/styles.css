@@ -986,20 +986,15 @@ a {
 }
 
 .comments-group {
-  position: relative;
-  flex-direction: column;
   margin-left: 20px;
 }
 
-.comments-group .comments {
+.comments {
   width: 448px;
   height: 120px;
   flex-shrink: 0;
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
-  padding: 0;
-}
-
-input {
-  padding: 0;
+  padding-top: 12px;
+  padding-left: 16px;
 }
